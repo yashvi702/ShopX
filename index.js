@@ -131,7 +131,7 @@ function displayCart() {// cartNumbers(products[i]);
             <!-- <div id="${item.tag}"> -->
                 <div class="product">
                     <ion-icon class="removeBtn" name="close-circle-outline"></ion-icon>
-                    <img src=".//assets/images/${item.tag}.png">
+                    <img src="./assets/images/${item.tag}.png">
                     <span>${item.name}</span>
                 </div>
                 <div class="prices" >$${item.price}.00</div>
